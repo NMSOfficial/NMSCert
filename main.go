@@ -30,7 +30,7 @@ func main() {
 	kisiAdi, _ := okuyucu.ReadString('\n')
 	kisiAdi = strings.TrimSpace(kisiAdi)
 
-	fmt.Print("Versiyon Sürümü: ")
+	fmt.Print("Versiyon Numarası: ")
 	versiyon, _ := okuyucu.ReadString('\n')
 	versiyon = strings.TrimSpace(versiyon)
 
